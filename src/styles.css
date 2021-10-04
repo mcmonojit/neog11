@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 5px;
+  height: 100vh;
+  background-image: radial-gradient(
+    farthest-corner at bottom right,
+    #a7f3d0,
+    white
+  );
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  box-shadow: 1px 3px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Inputbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.userInput {
+  border: 2px solid darkslategray;
+  border-radius: 0.3rem;
+  background-color: white;
+  height: 45px;
+  width: 260px;
+  outline: none;
+  padding: 2px 10px;
+  font-size: 18px;
+  box-shadow: 2px 5px 12px 2px rgba(0, 0, 0, 0.2);
+}
+
+.warning {
+  color: #ef4444;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.yellow {
+  color: #9333ea;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.green {
+  color: #3b82f6;
+  font-size: 20px;
+  font-weight: bold;
+}
